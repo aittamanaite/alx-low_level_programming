@@ -1,11 +1,15 @@
 #include <stdio.h>
-
 /**
+<<<<<<< HEAD
  * main -Entry point
+=======
+ * main - it puts out output using put
  *
- * Description : A C program that prints with  put fuction
+ * Description: a c programme
+>>>>>>> 3da9adf23e8bba2774e54593ba975b9eadf8634f
  *
- * Return : Always 0 (Success)
+ * Return: Always 0
+ *
 */
 
 int main(void)
