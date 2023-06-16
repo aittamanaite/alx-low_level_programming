@@ -2,13 +2,11 @@
 /**
  * main -Entry point
  *
- * main - it puts out output using printf
- *
  * Description: a c programme
  *
  * Return: Always 0
  *
-*/
+ */
 
 int main(void)
 {
