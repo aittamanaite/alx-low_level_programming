@@ -1,4 +1,4 @@
-#include <stdlib.h>
+#include <stdio.h>
 
 /**
  * main - it puts out output using prinft fonction
