@@ -1,10 +1,11 @@
 #include <stdlib.h>
+
 /**
  * main - it puts out output using prinft fonction
  *
  * Description: a c programme that print a String
  *
- * return: always 0 (success)
+ * Return: always 0 (success)
  *
 */ 
 
