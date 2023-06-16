@@ -3,9 +3,9 @@
 /**
  * main - Entry point
  *
- * Description: A C programme that prints with  put fuction
+ * Description: A C program that prints with  put fuction
  *
- * Return : allways 0 (sucess)
+ * Return : Always 0 (Success)
 */
 
 int main(void)
