@@ -2,6 +2,8 @@
 /**
  * main - it puts out output using put
  *
+ * Description: a c programme
+ *
  * Return: Always 0
  *
 */
