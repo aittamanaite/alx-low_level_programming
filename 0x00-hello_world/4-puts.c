@@ -6,7 +6,6 @@
  * Description : A C programme that uses puts fuctions()
  *
  * Return :allways 0 (sucess)
- *
 */
 
 int main(void)
