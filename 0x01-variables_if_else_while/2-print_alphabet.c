@@ -5,7 +5,7 @@
  * Description: a c programme
  *
  * Return: 0;
- */
+*/
 int main(void)
 {
         char c = 'a';
