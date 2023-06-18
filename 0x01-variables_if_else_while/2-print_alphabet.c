@@ -1,18 +1,20 @@
 #include <stdio.h>
+
 /**
- * main -Entry point
+ * main - Entry point
  *
- * Description: a c programme
  *
- * Return: 0;
-*/
+ * Return: Always 0 (Sucess)
+ */
+
 int main(void)
 {
-        char c = 'a';
-        while (c <= 'z')
-        {
-                putchar('c');
-                c++;
-        }
-        putchar('\n');
+	char c;
+
+	for (c = 'a' ; c <= 'z' ; c++)
+	{
+		putchar(c);
+	}
+	putchar('\n');
+	return (0);
 }
