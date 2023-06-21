@@ -3,7 +3,7 @@
 /**
  * main - Entry point
  *
- * Description : a c programme
+ * Description : prints _putchar using _putchar prototype
  *
  * Return : 0
  * 
