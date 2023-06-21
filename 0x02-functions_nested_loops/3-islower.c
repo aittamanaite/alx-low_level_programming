@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * int _islower - function prints
+ * _islower - function prints
  * @c: varaible
  * Return: 1 success otherwise 0.
 */
