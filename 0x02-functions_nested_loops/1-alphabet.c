@@ -2,7 +2,7 @@
 /**
  * main - Entry point
  *
- * Description: prints from a til z with _putchar
+ * Description: a c programm
  *
  * Return: 0
 */
