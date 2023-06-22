@@ -2,6 +2,7 @@
 /**
  * print_last_digit: prototype function
  *
+ * description: a c programme
  * @n: variable
  *
  * Return: last_digit
