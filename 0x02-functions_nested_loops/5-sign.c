@@ -1,9 +1,10 @@
 #include "main.h"
 
 /**
+ * print_sign - function
  *
- *
- *
+ * @n: varaible
+ * Return: 1 (success) 0 (fail).
  * */
 int print_sign(int n)
 {
