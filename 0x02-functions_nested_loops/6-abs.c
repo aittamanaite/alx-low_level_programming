@@ -1,12 +1,14 @@
 #include "main.h"
 /**
+ * _abs -  function
  *
+ * @r: variable
  *
- * */
-int _abs(int)
+ * Return: 1 (success) 0 (fail).
+ */
+int _abs(int r)
 {
-	int r;
-	r=_abs(r);
-
-	printf("%d\n",r);
+	if (r < 0)
+		r = (-1) * r;
+	return (r);
 }
