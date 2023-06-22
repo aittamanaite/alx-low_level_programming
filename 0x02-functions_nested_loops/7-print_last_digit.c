@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_last_digit: function
+ * print_last_digit: prototype function
  *
  * @n: variable
  *
