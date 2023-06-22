@@ -3,30 +3,21 @@
  * jack_bauer - print every minute of the day, starting from 00:00 - 23:59.
  *
  * Return : void
-*/
+ */
 void jack_bauer(void)
 {
-	int h0, h1;
-	int m0, m1;
+	int h, m;
 
-	for (h0 = 0 ; h0 <= 2 ; h0++)
+	for (h = 0 ; h <= 23 ; h++)
 	{
-		for (h1 = 0 ; h1 < 10 ; h1++)
+		for (m = 0 ; m <= 59 ; m++)
 		{
-			for (m0 = 0 ; m0 < 6 ; m0++)
-			{
-				for (m1 = 0 ; m1 < 10 ; m1++)
-				{
-					_putchar('0' + h0);
-					_putchar('0' + h1);
-					_putchar(':');
-					_putchar('0' + m0);
-					_putchar('0' + m1);
-					_putchar('\n');
-					if (h0 == 2 && h1 == 3 && m0 == 5 && m1 == 9)
-						return;
-				}
-			}
+			_putchar((h / 10) + 48);
+			_putchar((h % 10) + 48);
+			_putchar(':');
+			_putchar((m / 10) + 48);
+			_putchar((m % 10) + 48);
+			_putchar('\n');
 		}
 	}
 }
