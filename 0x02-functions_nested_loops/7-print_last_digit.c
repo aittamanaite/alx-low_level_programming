@@ -1,10 +1,10 @@
 #include "main.h"
 /**
+ * print_last_digit: function
  *
+ * @n: variable
  *
- *
- *
- *
+ * Return: 1 (success) 0 (fail).
 */
 int print_last_digit(int n)
 {
