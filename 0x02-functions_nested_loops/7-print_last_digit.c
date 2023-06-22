@@ -4,7 +4,7 @@
  *
  * @n: variable
  *
- * Return: 1 (success) 0 (fail).
+ * Return: last_digit
 */
 int print_last_digit(int n)
 {
