@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_last_digit: prototype function print last digit.
+ * print_last_digit - prototype function print last digit.
  *
  * @n: variable
  *
