@@ -2,7 +2,7 @@ include "main.h"
 /**
  * _isalpha - function
  *
- *@c: variable
+ * @c: variable
  *
  * Return: 1 in success otherwise 0.
  * */
