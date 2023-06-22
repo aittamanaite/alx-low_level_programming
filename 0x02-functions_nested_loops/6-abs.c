@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * int _abs -  function
+ * _abs -  function
  *
  * @r: variable
  *
