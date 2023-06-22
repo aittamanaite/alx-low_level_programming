@@ -1,12 +1,13 @@
 #include "main.h"
+
 /**
- * print_last_digit: prototype function
+ * print_last_digit: prototype function print last digit.
  *
- * description: a c programme
  * @n: variable
  *
  * Return: last_digit
 */
+
 int print_last_digit(int n)
 {
 	int last_d;
