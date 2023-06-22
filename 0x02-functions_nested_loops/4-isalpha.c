@@ -1,11 +1,12 @@
-include "main.h"
+#include "main.h"
+
 /**
  * _isalpha - function
  *
  * @c: variable
  *
  * Return: 1 in success otherwise 0.
- * */
+*/
 int _isalpha(int c)
 {
 	if (c >= 97 && c <= 122)
