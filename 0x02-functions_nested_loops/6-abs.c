@@ -4,7 +4,7 @@
  *
  * @r: variable
  *
- * Return: 1 (success) 0 (fail). 
+ * Return: 1 (success) 0 (fail).
  */
 int _abs(int r)
 {
