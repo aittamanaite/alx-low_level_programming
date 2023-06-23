@@ -1,13 +1,11 @@
 #include "main.h"
 
 /**
- *
  * jack_bauer - function
- *
 */
 void jack_bauer(void)
 {
-  int hours, mins;
+	 int hours, mins;
 
  	 for (hours = 0; hours <= 23; hours++)
 	 {
