@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _isupper: is a fucntion return 1 or 0.
+ * _isupper - is a fucntion check if c is upper.
  *
  * @c: variable
  *
