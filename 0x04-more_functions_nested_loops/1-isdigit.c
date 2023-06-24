@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _isupper - is a fucntion check if c is upper.
+ * _isdigit - is a fucntion check if c is upper.
  *
  * @c: variable
  *
