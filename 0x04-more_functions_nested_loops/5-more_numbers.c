@@ -1,21 +1,22 @@
 include "main.h"
+
 /**
  * more_numbers -  checks for checks for a digit (0 through 9).
  * Return: Always 0.
  */
 void more_numbers(void)
 {
-	int n, m;
+	int a, b;
 
-	for (n = 0; n < 10; n++)
+	for (a = 0; a < 10; a++)
 	{
-		for (m = 0; m < 15; m++)
+		for (b = 0; b < 15; b++)
 		{
-			if (m / 10 != 0)
+			if (b / 10 != 0)
 			{
-				_putchar(m / 10 + '0');
+				_putchar(b / 10 + '0');
 			}
-			_putchar(m % 10 + '0');
+			_putchar(b % 10 + '0');
 		}
 		_putchar('\n');
 	}
