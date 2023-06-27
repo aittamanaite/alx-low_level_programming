@@ -1,24 +1,23 @@
 #include "main.h"
 
 /**
- * rev_string - check the code
+ * string_toupper - uppercase all lower case letters in a string.
+ * @s: string to process.
  *
- * @s: var
- *
- * Return: Always 0.
-*/
-void rev_string(char *s)
+ * Return: a pointer.
+ */
+char *string_toupper(char *s)
 {
-	int l, i;
-	char tmp;
+	int i;
 
-	for (l = 0; s[l] != '\0'; ++l)
-		l++;
-
-	for (i = 0; i < 1 / 2; i++)
+	i = 0;
+	while (s[i] != '\0')
 	{
-		tmp = s[i];
-		s[i] = s[l - 1 - i];
-		s[l -  1 - i] = tmp;
+		if (s[i] >= 'a' && s[i] <= 'z')
+			s[i] -= 32;
+		i++;
 	}
+	s[i] = '\0';
+
+	return (s);
 }
