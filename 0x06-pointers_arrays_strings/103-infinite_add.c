@@ -1,5 +1,4 @@
-#include "holberton.h"
-#include <stdio.h>
+#include "main.h"
 /**
  * infinite_add - add 2 strings.
  * @n1: string1.
