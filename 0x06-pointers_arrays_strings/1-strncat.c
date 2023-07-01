@@ -1,29 +1,27 @@
 #include "main.h"
-
 /**
- * *_strncat - check the code
- *
- * @dest: parametre.
- *
- * @src: parametre.
- *
- * @n: paramatere.
- *
+ * _strncat - concatenate strings, defining the size of second string.
+ * @dest: string with concatenation
+ * @src: string to be concatenated
+ * @n: size of second string
  * Return: Always 0.
- *
-*/
+ */
 char *_strncat(char *dest, char *src, int n)
 {
-	int c, i;
+	int lengthD, lengthS;
 
-	c=0;
-	while (dest[c])
-		c++;
-	for (i = 0; i < n && src[i] != '\0'; i++)
+	lengthD = 0;
+	lengthS = 0;
+
+	while (*(dest + lengthD) != '\0')
+		lengthD++;
+
+	while (*(src + lengthS) != '\0' && lengthD < 97 && lengthS < n)
 	{
-		dest[c + 1] = src[i];
+		*(dest + lengthD) = *(src + lengthS);
+		lengthD++;
+		lengthS++;
 	}
-	dest[c + i] = '\0';
-
+	*(dest + lengthD) = '\0';
 	return (dest);
 }
