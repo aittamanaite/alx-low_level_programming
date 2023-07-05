@@ -1,12 +1,17 @@
 #include "main.h"
+
 /**
- * _memset - function that fills memory with a constant byte
- *@s: first value
- *@b: second value
- *@n: thirth value
+ * *_memset - check the code
  *
- * Return: char with result of memset
+ * @s: var1
+ *
+ * @b: var2
+ *
+ * @n: var3
+ *
+ * Return: Always 0.
 */
+
 char *_memset(char *s, char b, unsigned int n)
 {
 	unsigned int i;
