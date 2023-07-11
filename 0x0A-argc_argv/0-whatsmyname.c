@@ -2,9 +2,9 @@
 
 /**
  * main - entry point
- * @argc : var
- * @argv : var
- * Return : 0
+ * @argc: int
+ * @argv: list
+ * Return: 0
 */
 int main(int argc, char const *argv[])
 {
