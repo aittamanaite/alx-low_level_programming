@@ -2,10 +2,10 @@
 #include <stdio.h>
 
 /**
- * print_dog - a function that prints the info of the dog.
+ * print_dog - a function.
  * @d: just a pointer!
  * Return: void.
- * Description: struct dog
+ * Description: struct dog.
 */
 void print_dog(struct dog *d)
 {
