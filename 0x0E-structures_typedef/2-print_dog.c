@@ -1,8 +1,9 @@
 #include "dog.h"
 #include <stdio.h>
+
 /**
- * print_dog - function that prints the info of the dog.
- * @d: just pointer!
+ * print_dog - a function that prints the info of the dog.
+ * @d: just a pointer!
  * Return: void.
 */
 void print_dog(struct dog *d)
