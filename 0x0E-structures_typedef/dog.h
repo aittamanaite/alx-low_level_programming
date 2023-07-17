@@ -5,14 +5,14 @@
  * @name: dog's name.
  * @age: dog's age.
  * @owner: dog's owner.
- * 
+ *
  * Description:  just a dog structure lol!.
 */
 struct dog
 {
-	char* name;
+	char *name;
 	float age;
-	char* owner;
+	char *owner;
 };
 
 #endif
