@@ -5,6 +5,7 @@
  * print_dog - a function.
  * @d: just a pointer!
  * Return: void.
+ *
  * Description: struct dog.
 */
 void print_dog(struct dog *d)
